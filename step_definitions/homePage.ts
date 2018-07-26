@@ -11,9 +11,9 @@ Given(/^I am on google page$/, async () => {
 });
 
 Given(/^I am on cucumber search results page$/, async () => {
-    await expect(browser.getTitle()).to.eventually.equal("Cucumber - Google Search");
+    await expect(browser.getTitle()).to.eventually.equal("Cucumber - Поиск в Google");
 });
 
 Given(/^I am on protractor search results page$/, async () => {
-    await expect(browser.getTitle()).to.eventually.equal("Protractor - Google Search");
+    await expect(browser.getTitle()).to.eventually.equal("Protractor - Поиск в Google");
 });

@@ -1,4 +1,4 @@
-const { BeforeAll, After, Status } = require("cucumber");
+const { BeforeAll, After, Status, Before } = require("cucumber");
 import * as fs from "fs";
 import { browser } from "protractor";
 import { config } from "../config/config";

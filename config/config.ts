@@ -31,7 +31,7 @@ export const config: Config = {
     cucumberOpts: {
         compiler: "ts:ts-node/register",
         format: "json:./reports/json/cucumber_report.json",
-        require: ["../../stepdefinitions/*.ts", "../../support/*.ts"],
+        require: ["../../step_definitions/*.ts", "../../support/*.ts"],
         strict: true,
         tags: "@TypeScriptScenario or @CucumberScenario or @ProtractorScenario",
     },
