@@ -1,6 +1,6 @@
 Feature: To search typescript in google
 
-@TypeScriptScenario
+#@TypeScriptScenario
 Scenario: Typescript Google Search
 Given I am on protractor search results page
 When I type "Typescript"

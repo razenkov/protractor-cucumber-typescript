@@ -1,6 +1,6 @@
 Feature: Simple test on silpo main page
 
-  @CucumberScenario
+  #@CucumberScenario
   Scenario: Cucumber Silpo Main Page
     Given I am on silpo main page
     When I click on chooseStore button
@@ -9,7 +9,7 @@ Feature: Simple test on silpo main page
     When I click on submit button
     Then I see on the silpo main page "Архипенка Олександра"
 
-  @CucumberScenario
+  #@CucumberScenario
   Scenario: Cucumber Silpo Main Page
     Given I am on silpo main page
     When I click on "Акції" link
